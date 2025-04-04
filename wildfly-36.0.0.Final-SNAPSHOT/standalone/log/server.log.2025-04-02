@@ -1,0 +1,826 @@
+2025-04-02 01:04:02,462 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final
+2025-04-02 01:04:02,771 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.5.Final
+2025-04-02 01:04:02,775 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2025-04-02 01:04:02,826 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly 36.0.0.Final-SNAPSHOT (WildFly Core 28.0.0.Beta5) starting
+2025-04-02 01:04:02,826 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	apple.awt.application.name = Main
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.headless = true
+	java.class.path = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/jboss-modules.jar
+	java.class.version = 67.0
+	java.home = /Users/nnminh/Library/Java/JavaVirtualMachines/corretto-23.0.2/Contents/Home
+	java.io.tmpdir = /var/folders/r1/tw5td3151yzd61pfsmsp16gh0000gn/T/
+	java.library.path = /Users/nnminh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 23.0.2+7-FR
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 23
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Amazon.com Inc.
+	java.vendor.url = https://aws.amazon.com/corretto/
+	java.vendor.url.bug = https://github.com/corretto/corretto-23/issues/
+	java.vendor.version = Corretto-23.0.2.7.1
+	java.version = 23.0.2
+	java.version.date = 2025-01-21
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 23
+	java.vm.vendor = Amazon.com Inc.
+	java.vm.version = 23.0.2+7-FR
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT
+	jboss.host.name = nguyens-macbook-air
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = nguyens-macbook-air
+	jboss.qualified.host.name = nguyens-macbook-air.local
+	jboss.server.base.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone
+	jboss.server.config.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration
+	jboss.server.data.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/data
+	jboss.server.log.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/log
+	jboss.server.name = nguyens-macbook-air
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/tmp
+	jdk.debug = release
+	jdk.serialFilter = maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000
+	line.separator = 
+
+	logging.configuration = file:/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/logging.properties
+	module.path = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = aarch64
+	os.name = Mac OS X
+	os.version = 15.3.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	stderr.encoding = UTF-8
+	stdout.encoding = UTF-8
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Users/nnminh/Library/Java/JavaVirtualMachines/corretto-23.0.2/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/jboss-modules.jar -mp /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/modules org.jboss.as.standalone -Djboss.home.dir=/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT -Djboss.server.base.dir=/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	user.country = VN
+	user.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/bin
+	user.home = /Users/nnminh
+	user.language = en
+	user.name = nnminh
+	user.timezone = Asia/Ho_Chi_Minh
+2025-04-02 01:04:02,827 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Djdk.serialFilter=maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000 -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/log/server.log -Dlogging.configuration=file:/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/logging.properties 
+2025-04-02 01:04:03,163 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.6.2.Final
+2025-04-02 01:04:03,380 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-04-02 01:04:03,386 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.16.Final
+2025-04-02 01:04:03,389 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.16.Final
+2025-04-02 01:04:03,399 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2025-04-02 01:04:03,400 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-04-02 01:04:03,400 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2025-04-02 01:04:03,406 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2025-04-02 01:04:03,409 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2025-04-02 01:04:03,412 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2025-04-02 01:04:03,413 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.12.Final
+2025-04-02 01:04:03,414 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2025-04-02 01:04:03,414 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2025-04-02 01:04:03,419 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.13.Final)
+2025-04-02 01:04:03,425 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2025-04-02 01:04:03,426 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2025-04-02 01:04:03,426 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-04-02 01:04:03,437 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2025-04-02 01:04:03,442 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file '/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/application.keystore' does not exist. Used blank.
+2025-04-02 01:04:03,443 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.30.Final
+2025-04-02 01:04:03,447 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-04-02 01:04:03,451 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2025-04-02 01:04:03,456 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-04-02 01:04:03,465 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2025-04-02 01:04:03,467 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2025-04-02 01:04:03,468 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2025-04-02 01:04:03,491 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.18.Final starting
+2025-04-02 01:04:03,505 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path '/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-04-02 01:04:03,509 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2025-04-02 01:04:03,510 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2025-04-02 01:04:03,510 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2025-04-02 01:04:03,552 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/deployments
+2025-04-02 01:04:03,554 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2025-04-02 01:04:03,562 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2025-04-02 01:04:03,565 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-02 01:04:03,588 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-04-02 01:04:03,598 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 7.3.1.Final (Apache CXF 4.0.6) 
+2025-04-02 01:04:03,646 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-04-02 01:04:03,650 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2025-04-02 01:04:03,650 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2025-04-02 01:04:03,651 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly 36.0.0.Final-SNAPSHOT (WildFly Core 28.0.0.Beta5) started in 1486ms - Started 326 of 541 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml - Minimum feature stability level: community
+2025-04-02 01:04:04,709 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "fashion-shop-1.0-SNAPSHOT" (runtime-name: "fashion-shop-1.0-SNAPSHOT.war")
+2025-04-02 01:04:06,364 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for default
+2025-04-02 01:04:06,500 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for fashion-shop-1.0-SNAPSHOT#default
+2025-04-02 01:04:06,711 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.cache.infinispan.marshalling.UserMarshaller'
+2025-04-02 01:04:06,876 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) Started hibernate cache container
+2025-04-02 01:04:06,879 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "fashion-shop-1.0-SNAPSHOT")]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.naming.context.java.jdbc.fashionShop"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["service jboss.persistenceunit.\"fashion-shop-1.0-SNAPSHOT#default\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc.fashionShop]"]
+}
+2025-04-02 01:04:06,879 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "fashion-shop-1.0-SNAPSHOT")]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.naming.context.java.jdbc.fashionShop"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["service jboss.persistenceunit.\"fashion-shop-1.0-SNAPSHOT#default\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc.fashionShop]"]
+}
+2025-04-02 01:04:06,880 ERROR [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0021: Deploy of deployment "fashion-shop-1.0-SNAPSHOT.war" was rolled back with the following failure message: 
+{
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.naming.context.java.jdbc.fashionShop"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["service jboss.persistenceunit.\"fashion-shop-1.0-SNAPSHOT#default\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc.fashionShop]"]
+}
+2025-04-02 01:04:06,882 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) Stopped hibernate cache container
+2025-04-02 01:04:06,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment fashion-shop-1.0-SNAPSHOT (runtime-name: fashion-shop-1.0-SNAPSHOT.war) in 6ms
+2025-04-02 01:24:53,154 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0272: Suspending server
+2025-04-02 01:24:53,161 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-02 01:24:53,165 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2025-04-02 01:24:53,170 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-04-02 01:24:53,183 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-04-02 01:24:53,183 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2025-04-02 01:24:53,185 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2025-04-02 01:24:53,186 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-04-02 01:24:53,187 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-04-02 01:24:53,187 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-04-02 01:24:53,189 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-04-02 01:24:53,189 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.3.18.Final stopping
+2025-04-02 01:24:53,196 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly 36.0.0.Final-SNAPSHOT (WildFly Core 28.0.0.Beta5) stopped in 24ms
+2025-04-02 01:27:38,592 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.6.Final
+2025-04-02 01:27:38,904 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.5.Final
+2025-04-02 01:27:38,908 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2025-04-02 01:27:38,962 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly 36.0.0.Final-SNAPSHOT (WildFly Core 28.0.0.Beta5) starting
+2025-04-02 01:27:38,963 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	apple.awt.application.name = Main
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.headless = true
+	java.class.path = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/jboss-modules.jar
+	java.class.version = 67.0
+	java.home = /Users/nnminh/Library/Java/JavaVirtualMachines/corretto-23.0.2/Contents/Home
+	java.io.tmpdir = /var/folders/r1/tw5td3151yzd61pfsmsp16gh0000gn/T/
+	java.library.path = /Users/nnminh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 23.0.2+7-FR
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 23
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Amazon.com Inc.
+	java.vendor.url = https://aws.amazon.com/corretto/
+	java.vendor.url.bug = https://github.com/corretto/corretto-23/issues/
+	java.vendor.version = Corretto-23.0.2.7.1
+	java.version = 23.0.2
+	java.version.date = 2025-01-21
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 23
+	java.vm.vendor = Amazon.com Inc.
+	java.vm.version = 23.0.2+7-FR
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT
+	jboss.host.name = nguyens-macbook-air
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = nguyens-macbook-air
+	jboss.qualified.host.name = nguyens-macbook-air.local
+	jboss.server.base.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone
+	jboss.server.config.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration
+	jboss.server.data.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/data
+	jboss.server.log.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/log
+	jboss.server.name = nguyens-macbook-air
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/tmp
+	jdk.debug = release
+	jdk.serialFilter = maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000
+	line.separator = 
+
+	logging.configuration = file:/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/logging.properties
+	module.path = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = aarch64
+	os.name = Mac OS X
+	os.version = 15.3.1
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	stderr.encoding = UTF-8
+	stdout.encoding = UTF-8
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Users/nnminh/Library/Java/JavaVirtualMachines/corretto-23.0.2/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/jboss-modules.jar -mp /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/modules org.jboss.as.standalone -Djboss.home.dir=/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT -Djboss.server.base.dir=/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	user.country = VN
+	user.dir = /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/bin
+	user.home = /Users/nnminh
+	user.language = en
+	user.name = nnminh
+	user.timezone = Asia/Ho_Chi_Minh
+2025-04-02 01:27:38,964 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Djdk.serialFilter=maxbytes=10485760;maxdepth=128;maxarray=100000;maxrefs=300000 -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/log/server.log -Dlogging.configuration=file:/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/logging.properties 
+2025-04-02 01:27:39,319 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 2.6.2.Final
+2025-04-02 01:27:39,539 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-04-02 01:27:39,544 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.16.Final
+2025-04-02 01:27:39,548 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.16.Final
+2025-04-02 01:27:39,559 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2025-04-02 01:27:39,560 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-04-02 01:27:39,563 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2025-04-02 01:27:39,565 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2025-04-02 01:27:39,568 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2025-04-02 01:27:39,568 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2025-04-02 01:27:39,571 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2025-04-02 01:27:39,574 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2025-04-02 01:27:39,575 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.12.Final
+2025-04-02 01:27:39,577 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2025-04-02 01:27:39,582 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-04-02 01:27:39,585 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.13.Final)
+2025-04-02 01:27:39,589 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-04-02 01:27:39,589 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2025-04-02 01:27:39,599 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2025-04-02 01:27:39,612 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-04-02 01:27:39,620 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2025-04-02 01:27:39,624 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file '/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/application.keystore' does not exist. Used blank.
+2025-04-02 01:27:39,627 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.30.Final
+2025-04-02 01:27:39,637 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/configuration/application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2025-04-02 01:27:39,643 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.18.Final starting
+2025-04-02 01:27:39,666 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2025-04-02 01:27:39,666 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2025-04-02 01:27:39,673 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path '/Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-04-02 01:27:39,682 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2025-04-02 01:27:39,682 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2025-04-02 01:27:39,683 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2025-04-02 01:27:39,731 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2025-04-02 01:27:39,732 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2025-04-02 01:27:39,739 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/nnminh/Downloads/wildfly-latest-SNAPSHOT/wildfly-36.0.0.Final-SNAPSHOT/standalone/deployments
+2025-04-02 01:27:39,741 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-02 01:27:39,770 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-04-02 01:27:39,781 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 7.3.1.Final (Apache CXF 4.0.6) 
+2025-04-02 01:27:39,841 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-04-02 01:27:39,848 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2025-04-02 01:27:39,848 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2025-04-02 01:27:39,848 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly 36.0.0.Final-SNAPSHOT (WildFly Core 28.0.0.Beta5) started in 1598ms - Started 326 of 541 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml - Minimum feature stability level: community
+2025-04-02 01:27:40,553 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "fashion-shop-1.0-SNAPSHOT" (runtime-name: "fashion-shop-1.0-SNAPSHOT.war")
+2025-04-02 01:27:42,287 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for default
+2025-04-02 01:27:42,413 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for fashion-shop-1.0-SNAPSHOT#default
+2025-04-02 01:27:42,653 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 14) ISPN000556: Starting user marshaller 'org.wildfly.clustering.cache.infinispan.marshalling.UserMarshaller'
+2025-04-02 01:27:42,820 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 14) Started hibernate cache container
+2025-04-02 01:27:42,823 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 14) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'fashion-shop-1.0-SNAPSHOT#default'
+2025-04-02 01:27:42,835 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 14) HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-02 01:27:42,877 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 14) HHH000412: Hibernate ORM core version 6.6.7.Final
+2025-04-02 01:27:43,033 WARN  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 14) HHH000511: The 2.2.224 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 12.0.0. Check the community dialects project for available legacy versions.
+2025-04-02 01:27:43,038 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 14) HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-02 01:27:43,044 INFO  [org.hibernate.orm.connections.pooling] (ServerService Thread Pool -- 14) HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.jboss.as.connector.subsystems.datasources.WildFlyDataSource@50ae97ef']
+	Database driver: undefined/unknown
+	Database version: 2.2.224
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-02 01:27:43,046 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] (ServerService Thread Pool -- 14) HHH000025: Second-level cache region factory [org.infinispan.hibernate.cache.v62.InfinispanRegionFactory]
+2025-04-02 01:27:43,082 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 14) Envers integration enabled? : true
+2025-04-02 01:27:43,232 WARN  [org.jboss.modules.define] (MSC service thread 1-2) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1103)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:352)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:483)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:277)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:798)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:193)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:578)
+	at java.base/java.lang.Class.forName(Class.java:557)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@28.0.0.Beta5//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:201)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	... 28 more
+
+2025-04-02 01:27:43,407 WARN  [org.jboss.modules.define] (MSC service thread 1-2) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1103)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:352)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:483)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:277)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:798)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:193)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:578)
+	at java.base/java.lang.Class.forName(Class.java:557)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:19)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.processComponentConfig(InterceptorAnnotationProcessor.java:67)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.component.deployers.InterceptorAnnotationProcessor.deploy(InterceptorAnnotationProcessor.java:60)
+	at org.jboss.as.server@28.0.0.Beta5//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:201)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	... 28 more
+
+2025-04-02 01:27:43,505 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment fashion-shop-1.0-SNAPSHOT.war
+2025-04-02 01:27:43,649 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 8.0.2.Final
+2025-04-02 01:27:43,717 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProductVariantService' in deployment unit 'deployment "fashion-shop-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/fashion-shop-1.0-SNAPSHOT/ProductVariantService!com.ptithcm.ejb.service.ProductVariantServiceRemote
+	java:app/fashion-shop-1.0-SNAPSHOT/ProductVariantService!com.ptithcm.ejb.service.ProductVariantServiceRemote
+	java:module/ProductVariantService!com.ptithcm.ejb.service.ProductVariantServiceRemote
+	java:jboss/exported/fashion-shop-1.0-SNAPSHOT/ProductVariantService!com.ptithcm.ejb.service.ProductVariantServiceRemote
+	ejb:/fashion-shop-1.0-SNAPSHOT/ProductVariantService!com.ptithcm.ejb.service.ProductVariantServiceRemote
+	java:global/fashion-shop-1.0-SNAPSHOT/ProductVariantService
+	java:app/fashion-shop-1.0-SNAPSHOT/ProductVariantService
+	java:module/ProductVariantService
+
+2025-04-02 01:27:43,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'OrderService' in deployment unit 'deployment "fashion-shop-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/fashion-shop-1.0-SNAPSHOT/OrderService!com.ptithcm.ejb.service.remote.OrderService
+	java:app/fashion-shop-1.0-SNAPSHOT/OrderService!com.ptithcm.ejb.service.remote.OrderService
+	java:module/OrderService!com.ptithcm.ejb.service.remote.OrderService
+	java:global/fashion-shop-1.0-SNAPSHOT/OrderService
+	java:app/fashion-shop-1.0-SNAPSHOT/OrderService
+	java:module/OrderService
+
+2025-04-02 01:27:43,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'UserService' in deployment unit 'deployment "fashion-shop-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/fashion-shop-1.0-SNAPSHOT/UserService!com.ptithcm.ejb.service.UserServiceRemote
+	java:app/fashion-shop-1.0-SNAPSHOT/UserService!com.ptithcm.ejb.service.UserServiceRemote
+	java:module/UserService!com.ptithcm.ejb.service.UserServiceRemote
+	java:jboss/exported/fashion-shop-1.0-SNAPSHOT/UserService!com.ptithcm.ejb.service.UserServiceRemote
+	ejb:/fashion-shop-1.0-SNAPSHOT/UserService!com.ptithcm.ejb.service.UserServiceRemote
+	java:global/fashion-shop-1.0-SNAPSHOT/UserService
+	java:app/fashion-shop-1.0-SNAPSHOT/UserService
+	java:module/UserService
+
+2025-04-02 01:27:43,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProductService' in deployment unit 'deployment "fashion-shop-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/fashion-shop-1.0-SNAPSHOT/ProductService!com.ptithcm.ejb.service.ProductServiceRemote
+	java:app/fashion-shop-1.0-SNAPSHOT/ProductService!com.ptithcm.ejb.service.ProductServiceRemote
+	java:module/ProductService!com.ptithcm.ejb.service.ProductServiceRemote
+	java:jboss/exported/fashion-shop-1.0-SNAPSHOT/ProductService!com.ptithcm.ejb.service.ProductServiceRemote
+	ejb:/fashion-shop-1.0-SNAPSHOT/ProductService!com.ptithcm.ejb.service.ProductServiceRemote
+	java:global/fashion-shop-1.0-SNAPSHOT/ProductService
+	java:app/fashion-shop-1.0-SNAPSHOT/ProductService
+	java:module/ProductService
+
+2025-04-02 01:27:43,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CartService' in deployment unit 'deployment "fashion-shop-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/fashion-shop-1.0-SNAPSHOT/CartService!com.ptithcm.ejb.service.CartServiceRemote
+	java:app/fashion-shop-1.0-SNAPSHOT/CartService!com.ptithcm.ejb.service.CartServiceRemote
+	java:module/CartService!com.ptithcm.ejb.service.CartServiceRemote
+	java:jboss/exported/fashion-shop-1.0-SNAPSHOT/CartService!com.ptithcm.ejb.service.CartServiceRemote
+	ejb:/fashion-shop-1.0-SNAPSHOT/CartService!com.ptithcm.ejb.service.CartServiceRemote
+	java:global/fashion-shop-1.0-SNAPSHOT/CartService
+	java:app/fashion-shop-1.0-SNAPSHOT/CartService
+	java:module/CartService
+
+2025-04-02 01:27:43,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'AuthenticationService' in deployment unit 'deployment "fashion-shop-1.0-SNAPSHOT.war"' are as follows:
+
+	java:global/fashion-shop-1.0-SNAPSHOT/AuthenticationService!com.ptithcm.ejb.service.AuthServiceRemote
+	java:app/fashion-shop-1.0-SNAPSHOT/AuthenticationService!com.ptithcm.ejb.service.AuthServiceRemote
+	java:module/AuthenticationService!com.ptithcm.ejb.service.AuthServiceRemote
+	java:jboss/exported/fashion-shop-1.0-SNAPSHOT/AuthenticationService!com.ptithcm.ejb.service.AuthServiceRemote
+	ejb:/fashion-shop-1.0-SNAPSHOT/AuthenticationService!com.ptithcm.ejb.service.AuthServiceRemote
+	java:global/fashion-shop-1.0-SNAPSHOT/AuthenticationService
+	java:app/fashion-shop-1.0-SNAPSHOT/AuthenticationService
+	java:module/AuthenticationService
+
+2025-04-02 01:27:43,800 WARN  [org.jboss.modules.define] (MSC service thread 1-3) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1103)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:352)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:483)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:277)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:798)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:193)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:578)
+	at java.base/java.lang.Class.forName(Class.java:557)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@28.0.0.Beta5//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:201)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	... 26 more
+
+2025-04-02 01:27:43,800 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV due to an exception (enable DEBUG log level to see the cause)
+2025-04-02 01:27:43,833 WARN  [org.jboss.modules.define] (MSC service thread 1-3) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1103)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:352)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:483)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:277)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:798)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:193)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:578)
+	at java.base/java.lang.Class.forName(Class.java:557)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.utils.ClassLoadingUtils.loadClass(ClassLoadingUtils.java:26)
+	at org.jboss.as.ee@36.0.0.Final-SNAPSHOT//org.jboss.as.ee.component.deployers.EEModuleConfigurationProcessor.deploy(EEModuleConfigurationProcessor.java:63)
+	at org.jboss.as.server@28.0.0.Beta5//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1617)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1580)
+	at org.jboss.msc@1.5.5.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:201)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	... 26 more
+
+2025-04-02 01:27:43,833 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component javax.servlet.jsp.jstl.tlv.ScriptFreeTLV due to an exception (enable DEBUG log level to see the cause)
+2025-04-02 01:27:43,852 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for fashion-shop-1.0-SNAPSHOT#default
+2025-04-02 01:27:43,877 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.7)
+2025-04-02 01:27:43,894 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 5.1.5 (Final)
+2025-04-02 01:27:43,932 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = fashion-shop-1.0-SNAPSHOT.war_org.postgresql.Driver_42_7
+2025-04-02 01:27:44,000 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 14) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'fashion-shop-1.0-SNAPSHOT#default'
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)     create table carts (
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)         id integer generated by default as identity,
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)         quantity integer not null,
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)         totalPrice float(53) not null,
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)         productVariant_id integer,
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)         user_id varchar(255),
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)         primary key (id)
+2025-04-02 01:27:44,686 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)     create table orderDetails (
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)         id bigint generated by default as identity,
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)         price float(53) not null,
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)         quantity integer not null,
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)         order_id bigint,
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)         product_id integer,
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)         primary key (id)
+2025-04-02 01:27:44,691 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,692 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,692 INFO  [stdout] (ServerService Thread Pool -- 14)     create table orders (
+2025-04-02 01:27:44,692 INFO  [stdout] (ServerService Thread Pool -- 14)         id bigint generated by default as identity,
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         address varchar(255),
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         date timestamp(6),
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         paymentMethod varchar(255) check (paymentMethod in ('COD','VNPAY','MOMO','CREDIT_CARD')),
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         paymentStatus varchar(255) check (paymentStatus in ('PENDING','PAID','FAILED')),
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         phone varchar(255),
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         status varchar(255) check (status in ('PENDING','CONFIRMED','DELIVERING','DELIVERED','CANCELLED')),
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         total_price float(53) not null,
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         user_id varchar(255),
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)         primary key (id)
+2025-04-02 01:27:44,693 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)     create table product_variants (
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         id integer generated by default as identity,
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         color varchar(255),
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         image varchar(255),
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         price float(53) not null check (price>=0),
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         quantity integer not null check (quantity>=0),
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         size varchar(255),
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         product_id integer,
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)         primary key (id)
+2025-04-02 01:27:44,695 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)     create table products (
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         id integer generated by default as identity,
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         brand varchar(255),
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         category varchar(255),
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         description text,
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         name varchar(255) not null,
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         price varchar(255),
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         rating float(53),
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         sold integer,
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         status varchar(255) check (status in ('IN_STOCK','OUT_OF_STOCK','DISCONTINUED')),
+2025-04-02 01:27:44,696 INFO  [stdout] (ServerService Thread Pool -- 14)         stock_quantity integer not null check (stock_quantity>=0),
+2025-04-02 01:27:44,697 INFO  [stdout] (ServerService Thread Pool -- 14)         thumbnail varchar(255),
+2025-04-02 01:27:44,697 INFO  [stdout] (ServerService Thread Pool -- 14)         primary key (id)
+2025-04-02 01:27:44,697 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,697 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,697 INFO  [stdout] (ServerService Thread Pool -- 14)     create table products_images (
+2025-04-02 01:27:44,697 INFO  [stdout] (ServerService Thread Pool -- 14)         products_id integer not null,
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14)         images varchar(255)
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14)     create table roles (
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14)         role varchar(255) not null,
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14)         description varchar(255) not null,
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14)         primary key (role)
+2025-04-02 01:27:44,698 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,699 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,699 INFO  [stdout] (ServerService Thread Pool -- 14)     create table users (
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         id varchar(255) not null,
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         address varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         birthday varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         email varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         fullName varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         gender varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         img varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         password varchar(255) not null,
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         phone varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         refreshToken text,
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         status varchar(255) check (status in ('ACTIVE','PENDING','CANCELED')),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         role_id varchar(255),
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)         primary key (id)
+2025-04-02 01:27:44,700 INFO  [stdout] (ServerService Thread Pool -- 14)     )
+2025-04-02 01:27:44,701 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,701 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists users 
+2025-04-02 01:27:44,701 INFO  [stdout] (ServerService Thread Pool -- 14)        drop constraint if exists UK6dotkott2kjsp8vw4d0m25fb7
+2025-04-02 01:27:44,701 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,701 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists users 
+2025-04-02 01:27:44,701 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint UK6dotkott2kjsp8vw4d0m25fb7 unique (email)
+2025-04-02 01:27:44,702 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,702 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists carts 
+2025-04-02 01:27:44,702 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FK98csdsjj6ide32dn0kftd9h7 
+2025-04-02 01:27:44,702 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (productVariant_id) 
+2025-04-02 01:27:44,702 INFO  [stdout] (ServerService Thread Pool -- 14)        references product_variants
+2025-04-02 01:27:44,704 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,704 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists carts 
+2025-04-02 01:27:44,704 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FKb5o626f86h46m4s7ms6ginnop 
+2025-04-02 01:27:44,704 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (user_id) 
+2025-04-02 01:27:44,704 INFO  [stdout] (ServerService Thread Pool -- 14)        references users
+2025-04-02 01:27:44,705 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,705 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists orderDetails 
+2025-04-02 01:27:44,705 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FK22eg70sulexvgg5iaq1rkgplw 
+2025-04-02 01:27:44,705 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (order_id) 
+2025-04-02 01:27:44,705 INFO  [stdout] (ServerService Thread Pool -- 14)        references orders
+2025-04-02 01:27:44,706 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,706 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists orderDetails 
+2025-04-02 01:27:44,706 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FK9susgyftmq0lyojli332rnlb9 
+2025-04-02 01:27:44,706 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (product_id) 
+2025-04-02 01:27:44,706 INFO  [stdout] (ServerService Thread Pool -- 14)        references product_variants
+2025-04-02 01:27:44,707 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,707 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists orders 
+2025-04-02 01:27:44,707 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FK32ql8ubntj5uh44ph9659tiih 
+2025-04-02 01:27:44,707 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (user_id) 
+2025-04-02 01:27:44,707 INFO  [stdout] (ServerService Thread Pool -- 14)        references users
+2025-04-02 01:27:44,709 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,709 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists product_variants 
+2025-04-02 01:27:44,709 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FKosqitn4s405cynmhb87lkvuau 
+2025-04-02 01:27:44,709 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (product_id) 
+2025-04-02 01:27:44,709 INFO  [stdout] (ServerService Thread Pool -- 14)        references products
+2025-04-02 01:27:44,710 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,710 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists products_images 
+2025-04-02 01:27:44,710 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FKbp8jstfr20o4dtau7wgu5khju 
+2025-04-02 01:27:44,710 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (products_id) 
+2025-04-02 01:27:44,710 INFO  [stdout] (ServerService Thread Pool -- 14)        references products
+2025-04-02 01:27:44,711 INFO  [stdout] (ServerService Thread Pool -- 14) Hibernate: 
+2025-04-02 01:27:44,711 INFO  [stdout] (ServerService Thread Pool -- 14)     alter table if exists users 
+2025-04-02 01:27:44,711 INFO  [stdout] (ServerService Thread Pool -- 14)        add constraint FKp56c1712k691lhsyewcssf40f 
+2025-04-02 01:27:44,711 INFO  [stdout] (ServerService Thread Pool -- 14)        foreign key (role_id) 
+2025-04-02 01:27:44,711 INFO  [stdout] (ServerService Thread Pool -- 14)        references roles
+2025-04-02 01:27:44,766 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 8) Failed to define class javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV in Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/PermittedTaglibsTLV (Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1103)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:352)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:483)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:277)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:798)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:193)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	at org.jboss.as.weld@36.0.0.Final-SNAPSHOT//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:201)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	... 26 more
+
+2025-04-02 01:27:44,767 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 8) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV because of underlying class loading error: Type javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2025-04-02 01:27:44,772 WARN  [org.jboss.modules.define] (Weld Thread Pool -- 1) Failed to define class javax.servlet.jsp.jstl.tlv.ScriptFreeTLV in Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader: java.lang.NoClassDefFoundError: Failed to link javax/servlet/jsp/jstl/tlv/ScriptFreeTLV (Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader): javax/servlet/jsp/tagext/TagLibraryValidator
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1026)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1103)
+	at org.jboss.modules.ModuleClassLoader.doDefineOrLoadClass(ModuleClassLoader.java:352)
+	at org.jboss.modules.ModuleClassLoader.defineClass(ModuleClassLoader.java:483)
+	at org.jboss.modules.ModuleClassLoader.loadClassLocal(ModuleClassLoader.java:277)
+	at org.jboss.modules.ModuleClassLoader$1.loadClassLocal(ModuleClassLoader.java:79)
+	at org.jboss.modules.Module.loadModuleClass(Module.java:798)
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:193)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	at org.jboss.as.weld@36.0.0.Final-SNAPSHOT//org.jboss.as.weld.WeldModuleResourceLoader.classForName(WeldModuleResourceLoader.java:51)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadClass(AnnotatedTypeLoader.java:86)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.AnnotatedTypeLoader.loadAnnotatedType(AnnotatedTypeLoader.java:65)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.FastAnnotatedTypeLoader.loadAnnotatedType(FastAnnotatedTypeLoader.java:112)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.BeanDeployer.addClass(BeanDeployer.java:87)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:55)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.bootstrap.ConcurrentBeanDeployer$1.doWork(ConcurrentBeanDeployer.java:52)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.5.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:201)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:408)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:396)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:115)
+	... 26 more
+
+2025-04-02 01:27:44,772 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000119: Not generating any bean definitions from javax.servlet.jsp.jstl.tlv.ScriptFreeTLV because of underlying class loading error: Type javax.servlet.jsp.tagext.TagLibraryValidator from [Module "deployment.fashion-shop-1.0-SNAPSHOT.war" from Service Module Loader] not found.  If this is unexpected, enable DEBUG logging to see the full error.
+2025-04-02 01:27:44,990 WARN  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0101: Duplicate servlet mapping /home found
+2025-04-02 01:27:45,060 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0021: Registered web context: '/fashion-shop-1.0-SNAPSHOT' for server 'default-server'
+2025-04-02 01:27:45,082 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "fashion-shop-1.0-SNAPSHOT" (runtime-name : "fashion-shop-1.0-SNAPSHOT.war")
+2025-04-02 01:27:45,847 INFO  [org.jboss.ejb.client] (default task-2) JBoss EJB Client version 5.0.8.Final
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2) Hibernate: 
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)     select
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.id,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.brand,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.category,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.description,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.name,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.price,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.rating,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.sold,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.status,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.stock_quantity,
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)         p1_0.thumbnail 
+2025-04-02 01:27:46,093 INFO  [stdout] (default task-2)     from
+2025-04-02 01:27:46,094 INFO  [stdout] (default task-2)         products p1_0
+2025-04-02 01:27:46,863 INFO  [stdout] (default task-2) Hibernate: 
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)     select
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.id,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.brand,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.category,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.description,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.name,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.price,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.rating,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.sold,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.status,
+2025-04-02 01:27:46,864 INFO  [stdout] (default task-2)         p1_0.stock_quantity,
+2025-04-02 01:27:46,865 INFO  [stdout] (default task-2)         p1_0.thumbnail 
+2025-04-02 01:27:46,865 INFO  [stdout] (default task-2)     from
+2025-04-02 01:27:46,865 INFO  [stdout] (default task-2)         products p1_0
+2025-04-02 01:28:12,411 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)     select
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.id,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.address,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.birthday,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.email,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.fullName,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.gender,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.img,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.password,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.phone,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.refreshToken,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.role_id,
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         u1_0.status 
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)     from
+2025-04-02 01:28:12,412 INFO  [stdout] (default task-1)         users u1_0 
+2025-04-02 01:28:12,413 INFO  [stdout] (default task-1)     where
+2025-04-02 01:28:12,413 INFO  [stdout] (default task-1)         u1_0.email=?
+2025-04-02 01:28:12,555 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-02 01:28:12,555 INFO  [stdout] (default task-1)     insert 
+2025-04-02 01:28:12,555 INFO  [stdout] (default task-1)     into
+2025-04-02 01:28:12,555 INFO  [stdout] (default task-1)         users
+2025-04-02 01:28:12,555 INFO  [stdout] (default task-1)         (address, birthday, email, fullName, gender, img, password, phone, refreshToken, role_id, status, id) 
+2025-04-02 01:28:12,555 INFO  [stdout] (default task-1)     values
+2025-04-02 01:28:12,555 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-04-02 01:28:12,568 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)     select
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.id,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.brand,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.category,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.description,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.name,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.price,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.rating,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.sold,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.status,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.stock_quantity,
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         p1_0.thumbnail 
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)     from
+2025-04-02 01:28:12,569 INFO  [stdout] (default task-1)         products p1_0
+2025-04-02 01:29:05,456 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)     select
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.id,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.address,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.birthday,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.email,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.fullName,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.gender,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.img,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.password,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.phone,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.refreshToken,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.role_id,
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.status 
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)     from
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         users u1_0 
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)     where
+2025-04-02 01:29:05,457 INFO  [stdout] (default task-1)         u1_0.email=?
+2025-04-02 01:29:15,851 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = fashion-shop-1.0-SNAPSHOT.war_org.postgresql.Driver_42_7
+2025-04-02 01:29:15,855 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: '/fashion-shop-1.0-SNAPSHOT' from server 'default-server'
+2025-04-02 01:29:15,879 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'fashion-shop-1.0-SNAPSHOT#default'
+2025-04-02 01:29:15,899 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 101) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'fashion-shop-1.0-SNAPSHOT#default'
+2025-04-02 01:29:15,907 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 101) Stopped hibernate cache container
+2025-04-02 01:29:15,910 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment fashion-shop-1.0-SNAPSHOT (runtime-name: fashion-shop-1.0-SNAPSHOT.war) in 65ms
+2025-04-02 01:29:15,925 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "fashion-shop-1.0-SNAPSHOT" (runtime-name: "fashion-shop-1.0-SNAPSHOT.war")
+2025-04-02 01:29:15,969 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
+2025-04-02 01:29:15,975 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-02 01:29:15,977 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2025-04-02 01:29:15,983 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2025-04-02 01:29:15,984 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-04-02 01:29:15,983 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-04-02 01:29:15,985 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2025-04-02 01:29:15,985 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-04-02 01:29:15,986 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-04-02 01:29:15,986 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-04-02 01:29:15,987 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.3.18.Final stopping
+2025-04-02 01:29:15,990 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-04-02 01:29:15,997 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly 36.0.0.Final-SNAPSHOT (WildFly Core 28.0.0.Beta5) stopped in 17ms
