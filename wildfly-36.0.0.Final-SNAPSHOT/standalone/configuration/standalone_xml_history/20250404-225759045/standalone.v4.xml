@@ -131,7 +131,7 @@
         <subsystem xmlns="urn:jboss:domain:datasources:7.2">
             <datasources>
                 <datasource jta="true" jndi-name="java:/jdbc/fashionShop" pool-name="PostgresDS" enabled="true">
-                    <connection-url>jdbc:postgresql://localhost:5438/clothing_store</connection-url>
+                    <connection-url>jdbc:postgresql://localhost:5432/clothing_store</connection-url>
                     <driver>postgresql</driver>
                     <security user-name="postgres" password="postgres"/>
                 </datasource>

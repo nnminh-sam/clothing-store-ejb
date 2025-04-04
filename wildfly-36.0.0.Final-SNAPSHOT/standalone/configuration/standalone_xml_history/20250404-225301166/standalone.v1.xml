@@ -131,7 +131,7 @@
         <subsystem xmlns="urn:jboss:domain:datasources:7.2">
             <datasources>
                 <datasource jta="true" jndi-name="java:/jdbc/fashionShop" pool-name="PostgresDS" enabled="true">
-                    <connection-url>jdbc:postgresql://localhost:5438/clothing_store</connection-url>
+                    <connection-url>jdbc:postgresql://localhost:5432/clothing_store</connection-url>
                     <driver>postgresql</driver>
                     <security user-name="postgres" password="postgres"/>
                 </datasource>
@@ -519,9 +519,4 @@
             <remote-destination host="${jboss.mail.server.host:localhost}" port="${jboss.mail.server.port:25}"/>
         </outbound-socket-binding>
     </socket-binding-group>
-    <deployments>
-        <deployment name="servlet-module-1.0-SNAPSHOT" runtime-name="servlet-module-1.0-SNAPSHOT.war" enabled="false">
-            <fs-exploded path="/Users/nnminh/Workspaces/ClothingStoreEJB/web-module/target/servlet-module-1.0-SNAPSHOT"/>
-        </deployment>
-    </deployments>
 </server>
